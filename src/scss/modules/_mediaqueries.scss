@@ -1,0 +1,60 @@
+#mediaqueries-01 {
+  p {
+    color: #aaa;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  @media (min-width: 768px) {
+    p {
+      font-size: 40px;
+      color: blue;
+    }
+
+    .artiste {
+      display: none;
+      font-size: 50px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    p {
+      font-size: 50px;
+      color: black;
+    }
+  }
+}
+
+#mediaqueries-02 {
+  p {
+    background-color: #ffaa00;
+    border: solid black;
+    padding: 10px 20px;
+  }
+
+  .flexbox-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 768px) {
+    .flexbox-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+#mediaqueries-03 {
+  @media (min-width: 768px) {
+    .burger-menu {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navigation {
+      display: none;
+    }
+  }
+}

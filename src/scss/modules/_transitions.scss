@@ -1,0 +1,30 @@
+#transitions-01 {
+  .button {
+    transition-property: color;
+    transition-duration: 0.1s;
+  }
+
+  .button:hover {
+    color: white;
+    background-color: blue;
+  }
+}
+
+#transitions-02 {
+  div {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+  }
+
+  .box {
+    transition-property: transform;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .box:hover {
+    transform: rotate(-90deg);
+  }
+}
